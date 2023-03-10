@@ -444,8 +444,8 @@ body{
     }
 
     .headingpg1{
-        font-size: 3rem;
-        left: 400px;
+        font-size: 2.4rem;
+        left: 440px;
         top: -50px;
     }
     .earth,.mars,.venus,.uranus,.neptune,.mercury{
@@ -453,18 +453,18 @@ body{
     .underheadingpg1{
         font-size:x-small;
         position: relative;
-        right: 1150px;
+        right: 1080px;
     }
     .mars{
-        right: 1550px;
+        right: 1480px;
     }
     .venus{
         position: relative;
-        left: -1300px;
+        left: -1400px;
         top: 300px;
     }
     .mercury{
-        right: 2220px;
+        right: 2150px;
         scale: 0.6;
     }
     .jupiter{
@@ -490,7 +490,7 @@ body{
         font-size: xxx-large;
         position: relative;
         top: -30px;
-        left: 0px;
+        left: 50px;
     }
     .aboutustext{
         position: relative;
