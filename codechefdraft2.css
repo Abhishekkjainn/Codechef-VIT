@@ -445,7 +445,7 @@ body{
 
     .headingpg1{
         font-size: 3rem;
-        left: 500px;
+        left: 400px;
         top: -50px;
     }
     .earth,.mars,.venus,.uranus,.neptune,.mercury{
@@ -453,18 +453,18 @@ body{
     .underheadingpg1{
         font-size:x-small;
         position: relative;
-        right: 1020px;
+        right: 1150px;
     }
     .mars{
-        right: 1350px;
+        right: 1550px;
     }
     .venus{
         position: relative;
-        left: -1200px;
+        left: -1300px;
         top: 300px;
     }
     .mercury{
-        right: 2120px;
+        right: 2220px;
         scale: 0.6;
     }
     .jupiter{
@@ -490,20 +490,20 @@ body{
         font-size: xxx-large;
         position: relative;
         top: -30px;
-        left: 100px;
+        left: 0px;
     }
     .aboutustext{
         position: relative;
         top: -30px;
-        font-size: larger;
+        font-size: large;
         text-align:justify;
         padding: 10px;
     }
     .departmentmainheading{
-        left:120px;
+        left:50px;
     }
     .swiper{
-        width: 90%;
+        width: 80%;
         height: fit-content;
         position: relative;
         top: 1000px;
@@ -511,7 +511,7 @@ body{
     }
     .swiper-slide img{
         transform: scale(0.3);
-        width: 300px;
+        width: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -528,12 +528,12 @@ body{
         background-color: white;
     }
     .technicaldiv{
-        width: 300px;
+        width: 200px;
         height: 300px;
         background-color: rgba(255, 255, 255, 0.205);
         border-radius: 30px;
         text-align: center;
-        padding: 25px;
+        padding: 15px;
         backdrop-filter: blur(50px);
         color: white;
         position: relative;
@@ -577,7 +577,7 @@ body{
         border-radius: 40px;
         position: relative;
         top: 850px;
-        left: -270px;
+        left: -320px;
         scale: 0.4;
     }
     .rocket{
@@ -586,7 +586,7 @@ body{
         left: 100px;
     }
     .sponsorheading{
-        left: 70px;
+        left: 10px;
         top: 200px;
     }
     .sponsors{
@@ -595,28 +595,16 @@ body{
         left: 50px;
     }
     .downloadbrochure{
-        left: 130px;
-        top: 130px;
+        left: 10px;
+        top: 230px;
     }
     .uranus{
         left: 300px;
         top: 500px;
     }
-    .doublequote{
-        top:-400px;
-        left: 0;
-        display: none;
-    }
-    .quote{
-        top:550px;
-        left: -500px;
-        font-size: 4rem;
-        width: 200px;
-        display: none;
-    }
     .contactusheading{
         top: 200px;
-        left: 50px;
+        left: -20px;
     }
     .sputnik{
         left: -100px;
@@ -625,7 +613,7 @@ body{
     .contactuspage{
         scale: 0.6;
         top: 200px;
-        left: -100px;
+        left: -150px;
     }
 }
 
