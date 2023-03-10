@@ -448,16 +448,16 @@ body{
 
     .headingpg1{
         font-size: 2.4rem;
-        left: 465px;
+        left: 485px;
         top: -50px;
     }
     .underheadingpg1{
         font-size:xx-small;
         position: relative;
-        right: 1099px;
+        right: 1140px;
     }
     .mars{
-        right: 1430px;
+        right: 1530px;
     }
     .venus{
         position: relative;
@@ -480,7 +480,7 @@ body{
         width: 90%;
         position: relative;
         text-align: center;
-        left: 20px;
+        left: 0px;
         top: 720px;
         scale:0.8;
     }
