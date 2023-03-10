@@ -502,7 +502,7 @@ body{
         padding: 10px;
     }
     .departmentmainheading{
-        left:50px;
+        font-size:large;
     }
     .swiper{
         width: 80%;
@@ -539,7 +539,8 @@ body{
         backdrop-filter: blur(50px);
         color: white;
         position: relative;
-        left: 50px;
+        left: 0px;
+        overflow:hidden;
     }
     .technicaldiv:hover{
         background-color: rgba(255, 255, 255, 0.405);
@@ -578,9 +579,9 @@ body{
         padding: 40px;
         border-radius: 40px;
         position: relative;
-        top: 850px;
+        top: 820px;
         left: -320px;
-        scale: 0.4;
+        scale: 0.25;
     }
     .rocket{
         scale: 0.6;
@@ -588,17 +589,30 @@ body{
         left: 100px;
     }
     .sponsorheading{
+        font-size:large;
         left: 10px;
         top: 200px;
     }
     .sponsors{
         width: 60%;
         top: 250px;
-        left: 50px;
+        left: 10px;
     }
     .downloadbrochure{
-        left: 10px;
+        left: 40px;
         top: 230px;
+    }
+    .doublequote{
+        top:-400px;
+        left: 0;
+        display: none;
+    }
+    .quote{
+        top:550px;
+        left: -500px;
+        font-size: 4rem;
+        width: 200px;
+        display: none;
     }
     .uranus{
         left: 300px;
@@ -613,7 +627,7 @@ body{
         top:500px;
     }
     .contactuspage{
-        scale: 0.6;
+        scale: 0.5;
         top: 200px;
         left: -150px;
     }
