@@ -440,7 +440,7 @@ body{
     .containermain{
         perspective: 10px;
         height: 100vh;
-        overflow-x: scroll;
+        overflow-x: hidden;
     }
 
     .headingpg1{
