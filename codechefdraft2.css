@@ -1,0 +1,632 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    background: rgb(19,25,37);
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color:rgb(19, 129, 230) ;
+}
+.containermain{
+    perspective: 10px;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.parallaxeffect{
+    height: 100%;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transform-style: preserve-3d;
+}
+.background{
+    width: 100%;
+    position:absolute;
+    z-index:-1;
+    transform: translateZ(-40px) scale(5);
+    height: 380vh;
+    overflow-y: hidden;
+}
+.headingpg1{
+    color:rgb(255, 255, 255);
+    position:relative;
+    font-size: 7rem;
+    display: inline;
+    width: 1200px;
+    left: 450px;
+    position: relative;
+    transform: translateZ(-10px) scale(2);
+}
+.v{
+    color: rgb(19, 129, 230);
+}
+.underheadingpg1{
+    color: rgb(255, 255, 255);
+    width: 450px;
+    position: relative;
+    right: 680px;
+    scale: 1.5;
+    top: -100px;
+}
+.earth{
+    position: relative;
+    top: -350px;
+    right: 1850px;
+    transform: translateZ(-5px) scale(1.5);
+}
+.mars{
+    position: relative;
+    top:-300px;
+    right: 800px;
+    transform: translateZ(-5px) scale(1.5);
+}
+.venus{
+    position: relative;
+    transform: translateZ(-15px) scale(3.5);
+    top: 400px;
+    left: 200px;
+}
+.mercury{
+    transform: translateZ(-2px) scale(1.2);
+    position: relative;
+    right: 1940px;
+    top: 250px;
+}
+.jupiter{
+    transform: translateZ(-10px) scale(2);
+    position: relative;
+    right: 2640px;
+    top: 1400px;
+}
+.uranus{
+    transform: translateZ(-7px) scale(1.7);
+    position: relative;
+    top: 1000px;
+    left: 1600px;
+}
+.aboutustext{
+    position: relative;
+    top: -30px;
+    font-size: larger;
+    text-align: justify;
+}
+.aboutus{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+    color: white;
+    width: 60%;
+    position: relative;
+    text-align: center;
+    left: 230px;
+    top: 720px;
+}
+.heading3{
+    color:white ;
+    width: 250px;
+    padding-bottom:20px;
+    border-bottom: 4px solid rgb(19, 129, 230);
+    font-size: xxx-large;
+    position: relative;
+    top: -30px;
+    left: 350px;
+}
+.technicaldiv{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 30px;
+    text-align: center;
+    padding: 25px;
+    backdrop-filter: blur(50px);
+    color: white;
+    position: relative;
+    left: 200px;
+}
+.technicaldiv:hover{
+    background-color: rgba(255, 255, 255, 0.405);
+    transition: 0.5s;
+    color: black;
+}
+.technicalimage{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+.technicalheading{
+    position: relative;
+    top: -100px;
+    left: -210px;
+}
+.textslider{
+    position: relative;
+    top: -320px;
+    left: 350px;
+    width: 400px;
+    text-align: justify;
+    font-size: large;
+}
+.departmentmainheading{
+    position: relative;
+    color: white;
+    padding-bottom: 15px;
+    border-bottom:3px solid rgba(19, 129, 230);
+    width: 200px;
+    scale: 1.5;
+    top: 950px;
+    left: 650px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+
+/*swiper slider*/
+.swiper{
+    width: 80%;
+    height: fit-content;
+    position: relative;
+    top: 1000px;
+
+}
+.swiper-slide img{
+    transform: scale(0.7);
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .swiper .swiper-button-prev{
+    color: white;
+
+}
+.swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    color: white;
+    background-color: white;
+}
+.ourprojects{
+    width: 960px;
+    background-color: rgba(255, 255, 255,0.301);
+    backdrop-filter: blur(15px);
+    display: grid;
+    height: 1060px;
+    overflow-y:hidden;
+    padding: 40px;
+    border-radius: 40px;
+    position: relative;
+    top: 1250px;
+    left: 235px;
+}
+.ourprojects:hover{
+    background-color: rgba(255, 255, 255, 0.401);
+    transition: 0.3s;
+}
+.projectheading{
+    color: white;
+    font-size:3rem;
+    padding-bottom: 15px;
+    border-bottom: 4px solid rgb(19, 129, 230);
+    width: 300px;
+    position: relative;
+    top: 1200px;
+    left: 630px;
+}
+.projectimg{
+    border-radius: 40px;
+    height: 300px;
+}
+.projectdiv:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.project2img{
+    position: relative;
+    top: -305px;
+    left: 333px;
+}
+.project3img{
+    position: relative;
+    top: -610px;
+    left: 666px;
+}
+.project4img{
+    position: relative;
+    top: -570px;
+}
+.project5img{
+    position: relative;
+    top: -875px;
+    left: 333px;
+}
+.project6img{
+    position: relative;
+    top: -1182.5px;
+    left: 666px;
+}
+.project7img{
+    position: relative;
+    top: -1142px;
+}
+.project8img{
+    position: relative;
+    top: -1447px;
+    left: 333px;
+}
+.project9img{
+    position: relative;
+    top: -1752px;
+    left: 666px;
+}
+.rocket{
+    transform: translateZ(-10px) translateY(500px) scale(2);
+    position: relative;
+    z-index: -1;
+    left: 400px;
+    top: 400px;
+}
+.mdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors{
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.201);
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+    overflow-x: hidden;
+    position: relative;
+    top: 1200px;
+    left: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.sponsors:hover{
+    background-color: rgba(255, 255, 255, 0.401);
+    transition: 0.3s;
+}
+.s1{
+    margin-left: 150px;
+    transition: 2s;
+}
+
+.sponsorheading{
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgb(19, 129, 230);
+    width: 350px;
+    text-align: center;
+    position: relative;
+    top: 1150px;
+    left: 580px;
+    font-size:3rem;
+}
+.downloadbrochure{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(19, 129, 230);
+    border-radius: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    top: 950px;
+    left: 1050px;
+}
+.downloadbrochure:hover{
+    background-color:rgb(255, 255, 255) ;
+    transition: 0.3s;
+    color: rgb(19, 129, 230);
+}
+.quote{
+    color: white;
+    font-size: 5rem;
+    width: 1400px;
+    text-align: center;
+    position: relative;
+    top: 1400px;
+    left: 50px;
+    transform: translateZ(5px) scale(0.5);
+}
+.doublequote{
+    color: white;
+    font-size: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 450px;
+    z-index: 2;
+    text-align: center;
+    
+}
+.contactuspage{
+    position: relative;
+    top: 1100px;
+    left: 425px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.29);
+    backdrop-filter: blur(15px);
+    color: white;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: left;
+    height: 400px;
+}
+.contactusheading{
+    color: white;
+    font-size: 3rem;
+    position:relative;
+    top: 1050px;
+    left: 580px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgb(19, 129, 230);
+    width: 400px;
+    text-align: center;
+}
+.inp,.lname{
+    width: 260px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    height:30px;
+    text-align: center;
+    font-size: larger;
+}
+.inp:focus,.message:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.5s;
+    border-radius: 0px;
+}
+.firsthalf{
+    width: 280px;
+}
+.secondhalf{
+    width: 280px;
+    position: relative;
+    top: -280px;
+    left: 300px;
+}
+.message{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+.submit{
+    width: 280px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: larger;
+    position: relative;
+    top: -250px;
+    left: 150px;
+    border: none;
+
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+.sputnik{
+    position: relative;
+    transform: translateZ(-10px) scale(2);
+    right:350px;
+    top: 450px;
+}
+.footer{
+    width: 100%;
+    height:0vh;
+    background-color: white;
+    position: relative;
+    top: 1000px;
+    
+}
+@media screen and (max-width:600px){
+    .containermain{
+        perspective: 10px;
+        height: 100vh;
+        overflow-x: scroll;
+    }
+
+    .headingpg1{
+        font-size: 3rem;
+        left: 500px;
+        top: -50px;
+    }
+    .earth,.mars,.venus,.uranus,.neptune,.mercury{
+    }
+    .underheadingpg1{
+        font-size:x-small;
+        position: relative;
+        right: 1020px;
+    }
+    .mars{
+        right: 1350px;
+    }
+    .venus{
+        position: relative;
+        left: -1200px;
+        top: 300px;
+    }
+    .mercury{
+        right: 2120px;
+        scale: 0.6;
+    }
+    .jupiter{
+        right: 2300px;
+    }
+    .aboutus{
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px);
+        border-radius: 50px;
+        color: white;
+        width: 90%;
+        position: relative;
+        text-align: center;
+        left: 20px;
+        top: 720px;
+    }
+    .heading3{
+        color:white ;
+        width: 250px;
+        padding-bottom:20px;
+        border-bottom: 4px solid rgb(19, 129, 230);
+        font-size: xxx-large;
+        position: relative;
+        top: -30px;
+        left: 100px;
+    }
+    .aboutustext{
+        position: relative;
+        top: -30px;
+        font-size: larger;
+        text-align:justify;
+        padding: 10px;
+    }
+    .departmentmainheading{
+        left:120px;
+    }
+    .swiper{
+        width: 90%;
+        height: fit-content;
+        position: relative;
+        top: 1000px;
+    
+    }
+    .swiper-slide img{
+        transform: scale(0.3);
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     .swiper .swiper-button-prev{
+        color: white;
+    
+    }
+    .swiper .swiper-button-next{
+        color: white;
+    }
+    .swiper .swiper-pagination-bullet-active{
+        color: white;
+        background-color: white;
+    }
+    .technicaldiv{
+        width: 300px;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.205);
+        border-radius: 30px;
+        text-align: center;
+        padding: 25px;
+        backdrop-filter: blur(50px);
+        color: white;
+        position: relative;
+        left: 50px;
+    }
+    .technicaldiv:hover{
+        background-color: rgba(255, 255, 255, 0.405);
+        transition: 0.5s;
+        color: black;
+    }
+    .technicalimage{
+        position: relative;
+        top: -90px;
+        left: -90px;
+    }
+    .technicalheading{
+        position: relative;
+        top: -270px;
+        left: 50px;
+        font-size: x-large;
+    }
+    .textslider{
+        position: relative;
+        top: -250px;
+        left: 50px;
+        width: 200px;
+        text-align: justify;
+        font-size: small;
+    }
+    .projectheading{
+        left: 100px;
+    }
+    .ourprojects{
+        width: 960px;
+        background-color: rgba(255, 255, 255,0.301);
+        backdrop-filter: blur(15px);
+        display: grid;
+        height: 1060px;
+        overflow-y:hidden;
+        padding: 40px;
+        border-radius: 40px;
+        position: relative;
+        top: 850px;
+        left: -270px;
+        scale: 0.4;
+    }
+    .rocket{
+        scale: 0.6;
+        top: -100px;
+        left: 100px;
+    }
+    .sponsorheading{
+        left: 70px;
+        top: 200px;
+    }
+    .sponsors{
+        width: 60%;
+        top: 250px;
+        left: 50px;
+    }
+    .downloadbrochure{
+        left: 130px;
+        top: 130px;
+    }
+    .uranus{
+        left: 300px;
+        top: 500px;
+    }
+    .doublequote{
+        top:-400px;
+        left: 0;
+        display: none;
+    }
+    .quote{
+        top:550px;
+        left: -500px;
+        font-size: 4rem;
+        width: 200px;
+        display: none;
+    }
+    .contactusheading{
+        top: 200px;
+        left: 50px;
+    }
+    .sputnik{
+        left: -100px;
+        top:500px;
+    }
+    .contactuspage{
+        scale: 0.6;
+        top: 200px;
+        left: -100px;
+    }
+}
+
+
